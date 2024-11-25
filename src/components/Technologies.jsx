@@ -1,7 +1,7 @@
 import { FaCss3Alt, FaNodeJs } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io5"
-import { RiReactjsLine } from "react-icons/ri"
-import { SiTypescript } from "react-icons/si"
+import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri"
+import { SiTypescript, SiVite } from "react-icons/si"
 // import { TbBrandNextjs } from "react-icons/tb"
 import { TiHtml5 } from "react-icons/ti"
 
@@ -39,6 +39,14 @@ const Technologies = () => {
 
             <div className="p-4">
                 <FaNodeJs className="text-7xl text-green-500" />
+            </div>
+
+            <div className="p-4">
+                <RiTailwindCssFill className="text-7xl text-cyan-700" />
+            </div>
+
+            <div className="p-4">
+                <SiVite odeJs className="text-6xl text-yellow-500" />
             </div>
         </div>
     </div>
