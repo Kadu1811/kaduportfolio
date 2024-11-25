@@ -1,4 +1,4 @@
-import profilePic from '../assets/kadu-profile-super-cut.webp'
+import profilePic from '../assets/kadu-profile-cut.webp'
 import { HERO_CONTENT } from '../constants'
 import { motion } from 'framer-motion'
 
