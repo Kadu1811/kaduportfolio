@@ -1,5 +1,5 @@
 import profilePic from "../assets/kadu-profile-cut.webp";
-import { HERO_CONTENT } from "../constants";
+// import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -38,9 +38,9 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2">
+        <div className="flex w-full items-center lg:w-1/2">
           <motion.div
-            className="mt-10 flex flex-col items-center lg:items-start"
+            className="mt-10 flex w-full flex-col items-center lg:items-start"
             initial="hidden"
             animate="visible"
             variants={containerVariants}
@@ -53,7 +53,7 @@ const Hero = () => {
             </motion.h2>
 
             <motion.span
-              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text pb-6 text-3xl tracking-tight text-transparent"
               variants={childVariants}
             >
               Front-End Developer
@@ -63,7 +63,7 @@ const Hero = () => {
               className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
               variants={childVariants}
             >
-              {HERO_CONTENT}
+              {/* {HERO_CONTENT} */}
             </motion.p>
 
             <motion.a
@@ -72,7 +72,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               variants={childVariants}
               download
-              className="mb-10 rounded-full bg-white p-4 text-sm text-stone-800"
+              className="mb-10 rounded-full bg-white p-4 pt-6 text-sm text-stone-800"
             >
               Download Resume
             </motion.a>
