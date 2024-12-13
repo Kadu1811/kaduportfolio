@@ -5,6 +5,7 @@ import { Projects } from "./components/Projects";
 import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
 import { FloatButton } from "antd";
+import { AboutMe } from "./components/AboutMe";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <div className="container mx-auto px-8">
         <NavBar />
         <Hero />
+        <AboutMe />
         <Technologies />
         <Projects />
         <Experience />
