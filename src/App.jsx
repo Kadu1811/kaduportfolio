@@ -6,6 +6,7 @@ import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
 import { FloatButton } from "antd";
 import { AboutMe } from "./components/AboutMe";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 const App = () => {
   return (
@@ -25,7 +26,10 @@ const App = () => {
         <Projects />
         <Experience />
         <Contact />
-        <FloatButton.BackTop />
+        <FloatButton.BackTop
+          className="bg-black-300"
+          icon={<AiOutlineArrowUp />}
+        />
       </div>
     </div>
   );
