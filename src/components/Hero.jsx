@@ -1,5 +1,4 @@
 import profilePic from "../assets/kadu-profile-cut.webp";
-// import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -58,13 +57,6 @@ const Hero = () => {
             >
               Front-End Developer
             </motion.span>
-
-            <motion.p
-              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
-              variants={childVariants}
-            >
-              {/* {HERO_CONTENT} */}
-            </motion.p>
 
             <motion.a
               href="/src/assets/kaducurriculum.pdf"
