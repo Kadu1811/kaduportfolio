@@ -57,7 +57,7 @@ const Technologies = () => {
           className="p-4"
           initial="initial"
           animate="animate"
-          variants={iconVariants(5)}
+          variants={iconVariants(2)}
         >
           <IoLogoJavascript className="text-7xl text-yellow-400" />
         </motion.div>
@@ -111,7 +111,7 @@ const Technologies = () => {
           className="p-4"
           initial="initial"
           animate="animate"
-          variants={iconVariants(4)}
+          variants={iconVariants(1)}
         >
           <SiNextdotjs odeJs className="text-6xl text-gray-200" />
         </motion.div>
