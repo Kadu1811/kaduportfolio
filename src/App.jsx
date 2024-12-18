@@ -6,7 +6,7 @@ import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
 import { FloatButton } from "antd";
 import { AboutMe } from "./components/AboutMe";
-import { AiOutlineArrowUp } from "react-icons/ai";
+import { IoMdNavigate } from "react-icons/io";
 
 const App = () => {
   return (
@@ -27,8 +27,8 @@ const App = () => {
         <Experience />
         <Contact />
         <FloatButton.BackTop
-          className="bg-black-300"
-          icon={<AiOutlineArrowUp />}
+          className="custom-back-top"
+          icon={<IoMdNavigate />}
         />
       </div>
     </div>
