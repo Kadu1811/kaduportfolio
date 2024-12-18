@@ -30,8 +30,8 @@ const AboutMe = () => {
             </p>
 
             <p className="mb-2">
-              I am currently pursuing a bachalor degree in Computer Science at
-              FMU University.
+              I am currently pursuing a bachelor&apos;s degree in Computer
+              Science at FMU University.
             </p>
 
             <p className="mb-2">
