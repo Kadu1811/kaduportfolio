@@ -29,7 +29,7 @@ const Contact = () => {
       hoverColor: "#1DA851",
     },
     {
-      href: `mailto:${email}?subject=Contato&body=Olá Karlos,`,
+      href: `mailto:${email}?subject=Contato&body=Hello Karlos,`,
       icon: <MdOutlineEmail />,
       label: "E-mail",
       color: "#0072C6",
@@ -45,52 +45,62 @@ const Contact = () => {
     },
   ];
 
+  const currentTime = new Date();
+
+  const year = currentTime.getFullYear();
+
   return (
-    <motion.div
-      className="flex items-center justify-center"
-      whileInView={{ opacity: 1, y: 0 }}
-      initial={{ opacity: 0, y: -100 }}
-      transition={{ duration: 1 }}
-    >
-      <div className="mb-20 flex w-full flex-col items-center gap-4 rounded-2xl border border-stone-900 bg-black p-10 shadow-2xl lg:w-2/6 ">
-        <h2 className="mb-4 text-center text-4xl">Contact Me</h2>
+    <>
+      <motion.div
+        className="flex items-center justify-center"
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1 }}
+      >
+        <div className="mb-20 flex w-full flex-col items-center gap-4 rounded-2xl border border-stone-900 bg-black p-10 shadow-2xl lg:w-2/6 ">
+          <h2 className="mb-4 text-center text-4xl">Contact Me</h2>
 
-        <img
-          src={qr_code}
-          alt="Karlos Plentis"
-          className="rounded-lg"
-          width={200}
-          height={200}
-        />
+          <img
+            src={qr_code}
+            alt="Karlos Plentis"
+            className="rounded-lg"
+            width={200}
+            height={200}
+          />
 
-        <p>or</p>
+          <p>or</p>
 
-        {buttons.map(({ href, icon, label, color, hoverColor }, index) => (
-          <Button
-            key={index}
-            href={href}
-            target="_blank"
-            icon={icon}
-            style={{
-              ...buttonStyle,
-              backgroundColor: color,
-              color: "#fff",
-              borderColor: color,
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = hoverColor;
-              e.currentTarget.style.color = "#fff";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = color;
-              e.currentTarget.style.color = "#fff";
-            }}
-          >
-            {label}
-          </Button>
-        ))}
+          {buttons.map(({ href, icon, label, color, hoverColor }, index) => (
+            <Button
+              key={index}
+              href={href}
+              target="_blank"
+              icon={icon}
+              style={{
+                ...buttonStyle,
+                backgroundColor: color,
+                color: "#fff",
+                borderColor: color,
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = hoverColor;
+                e.currentTarget.style.color = "#fff";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = color;
+                e.currentTarget.style.color = "#fff";
+              }}
+            >
+              {label}
+            </Button>
+          ))}
+        </div>
+      </motion.div>
+
+      <div className="mb-6 flex items-center justify-center">
+        Karlos Plentis, {year}
       </div>
-    </motion.div>
+    </>
   );
 };
 
