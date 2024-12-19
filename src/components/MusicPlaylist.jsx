@@ -3,7 +3,7 @@ import { BsThreeDots } from "react-icons/bs";
 
 const MusicPlaylist = () => {
   const clientId = "e1a154e7c82044aeaab59f942ba4f734";
-  const redirectUri = "http://localhost:3000/callback";
+  const redirectUri = "https://karlosplentis.vercel.app/";
   const scopes = [
     "streaming",
     "user-read-email",
