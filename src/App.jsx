@@ -1,12 +1,15 @@
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
-import Technologies from "./components/Technologies";
-import { Projects } from "./components/Projects";
-import { Experience } from "./components/Experience";
-import { Contact } from "./components/Contact";
 import { FloatButton } from "antd";
-import { AboutMe } from "./components/AboutMe";
 import { IoMdNavigate } from "react-icons/io";
+import {
+  AboutMe,
+  Contact,
+  Experience,
+  Hero,
+  MusicPlaylist,
+  NavBar,
+  Projects,
+  Technologies,
+} from "./components";
 
 const App = () => {
   return (
@@ -25,6 +28,7 @@ const App = () => {
         <Technologies />
         <Projects />
         <Experience />
+        <MusicPlaylist />
         <Contact />
         <FloatButton.BackTop
           className="custom-back-top"
