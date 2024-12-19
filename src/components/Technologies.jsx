@@ -1,8 +1,7 @@
 import { FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
-import { SiTypescript, SiVite } from "react-icons/si";
-// import { TbBrandNextjs } from "react-icons/tb"
+import { SiNextdotjs, SiTypescript, SiVite } from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
 import { motion } from "framer-motion";
 
@@ -45,15 +44,6 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
 
-        {/* <motion.div
-                className="p-4"
-                initial="initial"
-                animate="animate"
-                variants={iconVariants(4)}
-            >
-                <TbBrandNextjs className="text-7xl" />
-            </motion.div>    */}
-
         <motion.div
           className="p-4"
           initial="initial"
@@ -67,7 +57,7 @@ const Technologies = () => {
           className="p-4"
           initial="initial"
           animate="animate"
-          variants={iconVariants(5)}
+          variants={iconVariants(2)}
         >
           <IoLogoJavascript className="text-7xl text-yellow-400" />
         </motion.div>
@@ -116,9 +106,18 @@ const Technologies = () => {
         >
           <SiVite odeJs className="text-6xl text-yellow-500" />
         </motion.div>
+
+        <motion.div
+          className="p-4"
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(1)}
+        >
+          <SiNextdotjs odeJs className="text-6xl text-gray-200" />
+        </motion.div>
       </motion.div>
     </div>
   );
 };
 
-export default Technologies;
+export { Technologies };

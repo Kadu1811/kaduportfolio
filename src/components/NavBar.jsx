@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import logo from "../assets/raviKumarLogo.webp";
+import logo from "../assets/karlos-plentis-logo.svg";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const NavBar = () => {
@@ -52,4 +52,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export { NavBar };
