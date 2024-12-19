@@ -57,7 +57,7 @@ const Contact = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1 }}
       >
-        <div className="mb-20 flex w-full flex-col items-center gap-4 rounded-2xl border border-stone-900 bg-black p-10 shadow-2xl lg:w-2/6 ">
+        <div className="border-stone-900 bg-black mb-20 flex w-full flex-col items-center gap-4 rounded-2xl border p-10 shadow-2xl lg:w-2/6 ">
           <h2 className="mb-4 text-center text-4xl">Contact Me</h2>
 
           <img
