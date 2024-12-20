@@ -10,7 +10,8 @@ const MusicPlaylist = () => {
           Music has always been a great source of inspiration for me, whether
           I&apos;m coding, working on new projects, or just relaxing.
           Here&apos;s a playlist that reflects my musical taste. I hope you
-          enjoy it as much as I do!
+          enjoy it as much as I do! If music inspires you too, share your
+          playlist with me, I&apos;d love to hear it!
         </p>
 
         <iframe
