@@ -76,7 +76,7 @@ const AboutMe = () => {
             </p>
 
             <p className="mb-2">
-              Now days I exercise by having swimming classes and trying to be a
+              I like to exercise by having swimming classes and trying to be a
               gymrat but the sport I have most interest in tryout is tennis
               ball, I got to be honest my interest came after I watched
               Challengers.
