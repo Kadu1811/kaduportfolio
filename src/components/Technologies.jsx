@@ -104,7 +104,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(4)}
         >
-          <SiVite odeJs className="text-6xl text-yellow-500" />
+          <SiVite className="text-6xl text-yellow-500" />
         </motion.div>
 
         <motion.div
@@ -113,7 +113,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconVariants(1)}
         >
-          <SiNextdotjs odeJs className="text-6xl text-gray-200" />
+          <SiNextdotjs className="text-6xl text-gray-200" />
         </motion.div>
       </motion.div>
     </div>
