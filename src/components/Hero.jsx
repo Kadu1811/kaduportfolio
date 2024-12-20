@@ -20,7 +20,7 @@ const childVariants = {
 
 const Hero = () => {
   return (
-    <div className="pb-4 lg:mb-36">
+    <div className="pb-4 lg:pb-40">
       <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
@@ -64,7 +64,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               variants={childVariants}
               download
-              className="mb-10 rounded-full bg-white p-4 pt-6 text-sm text-stone-800"
+              className="mb-10 rounded-full bg-white p-4 text-sm text-stone-800"
             >
               Download Resume
             </motion.a>
