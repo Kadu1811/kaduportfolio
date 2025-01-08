@@ -15,7 +15,7 @@ const Projects = () => {
 
       <div>
         {PROJECTS.map((project, i) => (
-          <div key={i} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={i} className="mb-8 flex flex-wrap gap-8 lg:justify-center">
             <motion.div
               className="w-full lg:w-1/4"
               whileInView={{ opacity: 1, x: 0 }}
@@ -25,9 +25,10 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                width={250}
-                height={250}
-                className="mb-6 rounded"
+                width={"100%"}
+                height={300}
+                className="cursor-pointer rounded transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl lg:mb-6"
+                onClick={() => window.open(project.url, "_blank")}
               />
             </motion.div>
 
