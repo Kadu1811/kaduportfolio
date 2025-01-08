@@ -1,11 +1,5 @@
-import project1 from "../assets/projects/project-1.webp";
+import rescue_game from "../assets/projects/recue_game.png";
 import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
-
-export const HERO_CONTENT = `I am a front-end developer with a strong foundation in web design and front-end, driven by a passion for creating seamless, user-focused digital experiences.
-Currently, I contribute to the Front-End team at FITec, where I specialize in transforming Figma designs into fully functional interfaces and building internal tools that streamline processes and boost efficiency. My tech stack includes React.js, TypeScript, JavaScript, Styled-Components, and tools like GitHub, Ant Design, Sentry, Jira, and Git, enabling me to craft high-quality and scalable solutions. 
-I thrive in collaborative environments, embrace challenges, and stay committed to learning and innovation. Let's connect and build something extraordinary together!`;
 
 export const EXPERIENCES = [
   {
@@ -40,11 +34,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Rescue Game",
+    image: rescue_game,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional mini game where the user can control the helicopter to shoot and protect the soldier.",
+    technologies: ["HTML", "CSS", "Javascript", "JQuery"],
+    url: "https://kadu1811.github.io/RescueGame/",
   },
   {
     title: "Task Management App",
@@ -52,20 +47,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    url: "teste",
   },
 ];
 
