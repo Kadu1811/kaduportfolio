@@ -97,9 +97,9 @@ const Contact = () => {
         </div>
       </motion.div>
 
-      <div className="mb-6 flex items-center justify-center">
+      <footer className="mb-6 flex items-center justify-center">
         Karlos Plentis, {year}
-      </div>
+      </footer>
     </>
   );
 };
