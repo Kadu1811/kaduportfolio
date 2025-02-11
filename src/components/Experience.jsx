@@ -38,7 +38,15 @@ const Experience = () => {
                 </span>
               </h3>
 
-              <p className="mb-4 text-stone-400">{experience.description}</p>
+              <p
+                className="mb-4 text-stone-400"
+                dangerouslySetInnerHTML={{
+                  __html: experience.description
+                    .replace(/\n/g, "<br />")
+                    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>"),
+                }}
+              />
+
               {experience.technologies.map((tech, i) => (
                 <span
                   key={i}

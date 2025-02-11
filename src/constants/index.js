@@ -6,16 +6,6 @@ import calculator from "../assets/projects/calculator.png";
 import crud from "../assets/projects/crud.png";
 import spiderverse from "../assets/projects/spiderverse.png";
 
-export const EXPERIENCES = [
-  {
-    year: "2023",
-    role: "developer",
-    company: "google",
-    description: `dream job`,
-    technologies: ["Typescript", "React.js", "Next.js"],
-  },
-];
-
 export const PROJECTS = [
   {
     title: "Spiderverse",
@@ -79,5 +69,31 @@ export const PROJECTS = [
       "My first-ever portfolio project, built with HTML and CSS. A creative playground where I let my imagination and design skills shine for the first time.",
     technologies: ["HTML", "CSS"],
     url: "https://kadu1811.github.io/MeuPortfolio/",
+  },
+];
+
+export const EXPERIENCES = [
+  {
+    year: "2023 - current",
+    role: "Front-End Developer",
+    company: "FITec – Fundação para Inovações Tecnológicas",
+    description: `
+Atuação como desenvolvedor front-end na equipe Acer, contribuindo para diversos projetos voltados à gestão de serviços, marketplaces e análise de preços.
+
+**Principais projetos:**
+
+- **PTT (Product Price Tracking):** Ferramenta para análise de preços de produtos Acer em diferentes marketplaces. Atuei no desenvolvimento do front-end e integração de filtros e paginação. **(Equipe de São Paulo)** 
+- **Marketplace:** Sistema para cadastro e gerenciamento de produtos Acer, como notebooks e monitores. Trabalhei na implementação de UI, lógica de negócios e consumo de APIs. **(Equipe de Recife)**  
+- **B2B (Business to Business):** Plataforma para venda de produtos Acer a parceiros, incluindo diversos recursos para otimização do processo comercial. Participei da construção e manutenção do sistema. **(Equipe de Manaus)**  
+- **Gestão de Serviços:** Sistema interno para facilitar a gestão de dados por funcionários da Acer, com dois módulos: **Gestão de Serviços** e **Gestão de Preço do Serviço**. Desenvolvi toda a interface e integração com APIs, incluindo filtros e paginação.  
+`,
+    technologies: [
+      "React",
+      "TypeScript",
+      "Ant Design",
+      "Zustand",
+      "Vite",
+      "Vitest",
+    ],
   },
 ];
