@@ -78,14 +78,17 @@ export const EXPERIENCES = [
     role: "Front-End Developer",
     company: "FITec – Fundação para Inovações Tecnológicas",
     description: `
-Atuação como desenvolvedor front-end na equipe Acer, contribuindo para diversos projetos voltados à gestão de serviços, marketplaces e análise de preços.
+Front-End Developer at Acer Team, contributing to various projects focused on service management, marketplaces, and price analysis.
 
-**Principais projetos:**
+**Principal projects:**
 
-- **PTT (Product Price Tracking):** Ferramenta para análise de preços de produtos Acer em diferentes marketplaces. Atuei no desenvolvimento do front-end e integração de filtros e paginação. **(Equipe de São Paulo)** 
-- **Marketplace:** Sistema para cadastro e gerenciamento de produtos Acer, como notebooks e monitores. Trabalhei na implementação de UI, lógica de negócios e consumo de APIs. **(Equipe de Recife)**  
-- **B2B (Business to Business):** Plataforma para venda de produtos Acer a parceiros, incluindo diversos recursos para otimização do processo comercial. Participei da construção e manutenção do sistema. **(Equipe de Manaus)**  
-- **Gestão de Serviços:** Sistema interno para facilitar a gestão de dados por funcionários da Acer, com dois módulos: **Gestão de Serviços** e **Gestão de Preço do Serviço**. Desenvolvi toda a interface e integração com APIs, incluindo filtros e paginação.  
+• **PTT (Product Price Tracking):** A tool for analyzing Acer product prices across different marketplaces. I worked on front-end development and the integration of filters and pagination. **(São Paulo Team)** 
+
+• **Marketplace:** A system for registering and managing Acer products, such as laptops and monitors. I contributed to UI implementation, business logic, and API consumption. **(Recife Team)**  
+
+• **B2B (Business to Business):** A platform for selling Acer products to partners, featuring various tools for optimizing the sales process. I participated in the system's development and maintenance. **(Manaus Team)** 
+
+• **Service:** An internal system to facilitate data management for Acer employees, with two modules: Service Management and Service Price Management. I developed the entire interface and API integration, including filters and pagination.  
 `,
     technologies: [
       "React",
