@@ -59,7 +59,7 @@ const Hero = () => {
             </motion.span>
 
             <motion.a
-              href="/kaducurriculum.pdf"
+              href="/karlos2025.pdf"
               target="_blank"
               rel="noopener noreferrer"
               variants={childVariants}
